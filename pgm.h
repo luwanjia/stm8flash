@@ -1,11 +1,7 @@
 #ifndef __PGM_H
 #define __PGM_H
 
-#ifdef WIN32
- #include <libusb-1.0/libusb.h>
-#else
- #include <libusb.h>
-#endif
+#include <libusb-1.0/libusb.h>
 
 #include "stm8.h"
 #include "libespstlink.h"
